@@ -7,7 +7,7 @@ Create a mini version of the Moneybox app that will allow existing users to logi
 2. error messages not correctly dissapearing - changed logic/ordering of error statements
 3. full name regex was incorrect - fixed - from online
 4. email regex incorrect - fixed - from online
-5. used while loop and frame numbers to loop to task requirements
+5. used while loop and frame numbers to loop animation to task requirements
 
 ## Part B - Added 2 new screens
 1. added a "home area" that the user is shown upon logging in (bearer token is also passed after being extracted from JSON message)
