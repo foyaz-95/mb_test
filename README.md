@@ -10,5 +10,9 @@ Create a mini version of the Moneybox app that will allow existing users to logi
 
 ## Part B - Added 2 new screens
 1. added a "home area" that the user is shown upon logging in (bearer token is also passed after being extracted from JSON message)
-2. added textviews to display different account information that is extracted from JSON message received from server after sending request to GET /investorproducts
+2. added textviews to display different account information that is extracted from a JSON message received from the server (after sending request to GET /investorproducts)
 3. made textviews clickable to allow a user to go to the "add money" screen, user can add money by clicking on "Add £10" button from this screen
+
+### TODO
+1. Separate calls to server (create own class and methods etc...)
+2. write tests to assert whether values are correct (create test user, assign products and plan values etc...) instead of printlines
